@@ -1,6 +1,6 @@
 /*jshint multistr:true */
 
-
+// update
 var text = 'gheiw ghjewigweh giwehgihgiwe ghw hvwho Chris newgowngkw fnewi chris jowepjf Chrit cniwo chrit'
 var myName = 'Chris'
 var hits=[]
