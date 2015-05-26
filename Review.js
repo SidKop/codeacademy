@@ -1,11 +1,19 @@
 var getReview = function (name) {
-    for (var key in movie){
 
-        if (movie[key].review ===  name ){
-            console.log(movies[key])
-            return movies[key]
-        }
 
+    switch (movie){
+        case 'Toy Story 2':
+            // console.log("Great story. Mean prospector.")
+            return "Great story. Mean prospector."
+            break
+        case 'Finding Nemo':
+                return ("Cool animation, and funny turtles.")
+                break
+        case 'The Lion King':
+                    return ("Great songs.")
+                    break
+        default:
+            return "I don't know"
     }
 
     // movie[key].name =
