@@ -2,9 +2,6 @@ var user = prompt("Are you bored").toLowerCase();
 
 switch (user){
     case 'yes':
-
-
-
         console.log("shame")
         break
     case 'no':
